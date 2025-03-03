@@ -1,3 +1,5 @@
+import { ExploreButton } from "@/components/ExploreButton/ExploreButton"
+
 export function Home() {
     return (
         <main>
@@ -8,6 +10,8 @@ export function Home() {
                 outer space and not hover kind of on the edge of it. Well sit back, and relax
                 because we’ll give you a truly out of this world experience!
             </p>
+
+            <ExploreButton />
         </main>
     )
 }
