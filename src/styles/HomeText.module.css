@@ -1,12 +1,4 @@
-.Mobile{
-    background-image: url(@/assets/images/home/background-home-mobile.jpg);
-    background-repeat: no-repeat;
-background-size: cover;
-    width: 375px;
-    height: 812px;
-}
-
-.Home {
+.HomeText {
     display: flex;
     padding: 24px;
     flex-direction: column;
@@ -15,7 +7,7 @@ background-size: cover;
     align-self: stretch;
 }
 
-.Home span{
+.HomeText span{
     font-family:var(--font-barlow-condensed);
 font-size: 16px;
 font-style: normal;

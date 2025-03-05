@@ -1,0 +1,9 @@
+.HomePage{
+    background-image: url(@/assets/images/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+    width: 375px;
+    height: 812px;
+}
+
+
