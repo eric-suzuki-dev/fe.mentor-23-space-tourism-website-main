@@ -2,25 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 
+:root {
+  --font-bellefair: "Bellefair", serif;
+  --font-barlow: "Barlow", sans-serif;
+  --font-barlow-condensed: "Barlow Condensed", sans-serif;
+
+  --white: #ffffff;
+  --blue-300: #D0D6F9;
+  --blue-900: #0B0D17;
+}
+
 body{
-
-    .bellefair-regular {
-        font-family: "Bellefair", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-
-      .barlow-regular {
-        font-family: "Barlow", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-
-      .barlow-condensed-regular {
-        font-family: "Barlow Condensed", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
+  background-color: gray;
 }

@@ -1,7 +1,9 @@
+import { Home } from "./pages/Home";
+
 function App() {
   return (
     <div>
-      <h1>Meu Projeto React com Vite 🚀</h1>
+      <Home/>
     </div>
   );
 }

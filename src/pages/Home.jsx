@@ -1,4 +1,5 @@
 import { ExploreButton } from "@/components/ExploreButton/ExploreButton"
+import "@/styles/Home.css"
 
 export function Home() {
     return (
