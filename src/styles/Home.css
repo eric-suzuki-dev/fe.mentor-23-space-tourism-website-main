@@ -1,3 +1,11 @@
+.Mobile{
+    background-image: url(@/assets/images/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+    width: 375px;
+    height: 812px;
+}
+
 .Home {
     display: flex;
     padding: 24px;
@@ -5,4 +13,14 @@
     gap: 8px;
     flex: 1 0 0;
     align-self: stretch;
+}
+
+.Home span{
+    font-family:var(--font-barlow-condensed);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.4px;
+color: var(--blue-300);
 }

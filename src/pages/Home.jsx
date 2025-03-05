@@ -3,8 +3,8 @@ import "@/styles/Home.css"
 
 export function Home() {
     return (
-        <body className="Mobile">
-            <main className="Home">
+        <main className="Mobile">
+            <div className="Home">
                 <span>So, you want to travel to</span>
                 <h1>Space</h1>
                 <p>
@@ -13,8 +13,8 @@ export function Home() {
                     because we’ll give you a truly out of this world experience!
                 </p>
                 <ExploreButton />
-            </main>
-        </body>
+            </div>
+        </main>
     )
 }
 
