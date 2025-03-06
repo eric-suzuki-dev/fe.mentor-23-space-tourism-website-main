@@ -1,0 +1,46 @@
+.HomeText {
+    display: flex;
+    /* padding: 24px; */
+    flex-direction: column;
+    /* gap: 8px; */
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.HomeText span{
+    font-family:var(--font-barlow-condensed);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.4px;
+color: var(--blue-300);
+text-align: center;
+text-transform: uppercase;
+}
+
+.HomeText h1{
+    font-family:var(--font-bellefair);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 24px 0;
+}
+
+.HomeText p{
+    font-family:var(--font-barlow);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 2.4px;
+    color: var(--blue-300);
+    align-self: stretch;
+    text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+}

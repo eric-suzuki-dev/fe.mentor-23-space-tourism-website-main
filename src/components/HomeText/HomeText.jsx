@@ -1,4 +1,4 @@
-import styles from "@/styles/HomeText.module.css";
+import styles from "./HomeText.module.css";
 
 export function HomeText() {
     return (

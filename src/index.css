@@ -1,21 +1,4 @@
 @import "./styles/reset.css";
+@import "./styles/global.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
-
-:root {
-  --font-bellefair: "Bellefair", serif;
-  --font-barlow: "Barlow", sans-serif;
-  --font-barlow-condensed: "Barlow Condensed", sans-serif;
-
-  --white: #ffffff;
-  --blue-300: #D0D6F9;
-  --blue-900: #0B0D17;
-}
-
-body{
-  /* background-color: gray; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh; 
-}

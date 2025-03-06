@@ -1,5 +1,5 @@
 // import React from "react";
-import styles from "@/styles/ExploreButton.module.css";
+import styles from "./ExploreButton.module.css";
 
 export function ExploreButton() {
     return (
