@@ -6,6 +6,7 @@
     align-self: stretch;
     /* flex: 1; */
     position: relative;
+    padding-top: 24px;
 }
 
 .HomeText span{

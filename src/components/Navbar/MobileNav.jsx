@@ -1,7 +1,7 @@
 import logo from '@/assets/images/shared/logo.svg';
 import menuIcon from '@/assets/images/shared/icon-hamburger.svg';
 
-import styles from "@/styles/MobileNav.module.css";
+import styles from "./MobileNav.module.css";
 
 export function MobileNav() {
   return (
