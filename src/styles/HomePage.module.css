@@ -1,14 +1,13 @@
-.HomePage{
+.HomePage {
     background-image: url(@/assets/images/home/background-home-mobile.jpg);
     background-repeat: no-repeat;
-background-size: cover;
+    background-size: cover;
     width: 375px;
-    height: 724px;
+    height: 812px;
+    background-size: auto;
     padding: 0 24px 24px 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: flex-start;
 }
-
-

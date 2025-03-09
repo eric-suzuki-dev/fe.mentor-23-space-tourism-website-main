@@ -4,25 +4,25 @@
     align-items: center;
     justify-content: space-between;
     align-self: stretch;
-    /* flex: 1; */
     position: relative;
     padding-top: 24px;
 }
 
-.HomeText span{
-    font-family:var(--font-barlow-condensed);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 2.4px;
-color: var(--blue-300);
-text-align: center;
-text-transform: uppercase;
+.HomeText span {
+    font-family: var(--font-barlow-condensed);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    color: var(--blue-300);
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.HomeText h1{
-    font-family:var(--font-bellefair);
+.HomeText h1 {
+    height: 92px;
+    font-family: var(--font-bellefair);
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
@@ -34,8 +34,8 @@ text-transform: uppercase;
     padding: 24px 0;
 }
 
-.HomeText p{
-    font-family:var(--font-barlow);
+.HomeText p {
+    font-family: var(--font-barlow);
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
