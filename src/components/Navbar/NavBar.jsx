@@ -1,19 +1,19 @@
 import { useEffect, useState } from 'react';
-import MobileNav from './MobileNav';
-import DesktopNav from './DesktopNav';
+import { MobileNav } from './MobileNav';
+// import DesktopNav from '@/components/Navbar/DesktopNav'; // Comente esta linha
 
 function getDeviceType() {
-  if (typeof window === 'undefined') return 'desktop'; // Evita erro no SSR
+  if (typeof window === 'undefined') return 'desktop';
   if (window.innerWidth < 768) return 'mobile';
   if (window.innerWidth < 1024) return 'tablet';
   return 'desktop';
 }
 
-export default function Navbar() {
-  const [deviceType, setDeviceType] = useState('desktop'); // Define um valor padrão seguro
+export default function NavBar() {
+  const [deviceType, setDeviceType] = useState('desktop');
 
   useEffect(() => {
-    setDeviceType(getDeviceType()); // Define o estado no primeiro render
+    setDeviceType(getDeviceType());
 
     const handleResize = () => setDeviceType(getDeviceType());
     window.addEventListener('resize', handleResize);
@@ -21,5 +21,5 @@ export default function Navbar() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  return deviceType === 'mobile' ? <MobileNav /> : <DesktopNav />;
+  return deviceType === 'mobile' ? <MobileNav /> : null; // Retorna null para evitar erro
 }

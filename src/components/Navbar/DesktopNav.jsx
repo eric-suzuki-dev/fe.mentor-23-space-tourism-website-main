@@ -1,7 +1,4 @@
-export function DesktopNav(){
-    return(
-        <div>
-            
-        </div>
-    )
-}
+export default function DesktopNav() {
+    return null; // Retorna nada por enquanto
+  }
+  
