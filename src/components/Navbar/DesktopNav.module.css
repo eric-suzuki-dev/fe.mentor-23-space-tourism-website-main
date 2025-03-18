@@ -1,0 +1,13 @@
+.NavbarDesktop{
+    height: 136px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavbarMobilelogo{
+    width: 48px;
+    height: 48px;
+}
