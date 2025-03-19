@@ -7,7 +7,22 @@
     justify-content: space-between;
 }
 
-.NavbarMobilelogo{
+.NavbarDesktoplogo{
     width: 48px;
     height: 48px;
+}
+
+.BarDesktop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .BraDesktop_box{
+
+} */
+
+.BarDesktop_number{
+color: var(--white);
 }
