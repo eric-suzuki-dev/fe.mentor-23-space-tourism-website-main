@@ -1,28 +1,42 @@
-.NavbarDesktop{
+.NavbarDesktop {
     height: 136px;
     width: 1440px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: space-between; */
 }
 
-.NavbarDesktoplogo{
+.NavbarDesktoplogo {
     width: 48px;
     height: 48px;
 }
 
-.BarDesktop{
+.BarDesktop {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: space-between; */
 }
 
-/* .BraDesktop_box{
+.BarDesktop_box {
+    display: flex;
+    flex-direction: row;
+}
 
-} */
+.BarDesktop_number {
+    font-family: var(--font-barlow-condensed);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
 
-.BarDesktop_number{
-color: var(--white);
+.BarDesktop_text {
+    font-family: var(--font-barlow-condensed);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
 }

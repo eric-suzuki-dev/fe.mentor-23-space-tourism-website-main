@@ -11,7 +11,7 @@ export default function DesktopNav() {
 
       <div className={styles.BarDesktop}>
         {["Home", "Destination", "Crew", "Technology"].map((item, index) => (
-          <div key={index} className={styles.BarDesktop_box}>
+          <div key={index} className={styles.BraDesktop_box}>
             <span className={styles.BarDesktop_number}>
               {`0${index}`}
             </span>
