@@ -2,9 +2,10 @@
     height: 136px;
     width: 1440px;
     display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: space-between; */
+    padding-top: 40px;
+    align-items: center;
+    gap: -32px;
+    align-self: stretch;
 }
 
 .NavbarDesktoplogo {
