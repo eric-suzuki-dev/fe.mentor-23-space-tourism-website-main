@@ -12,11 +12,23 @@
     height: 48px;
 }
 
+.BarDesktop_line{
+    display: flex;
+padding-left: 64px;
+align-items: center;
+gap: 64px;
+color: var(--white);
+}
+
 .BarDesktop {
     display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: space-between; */
+    min-width: 664px;
+    padding: 0px 64px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(40px);
 }
 
 .BarDesktop_box {
@@ -26,6 +38,7 @@
 
 .BarDesktop_number {
     font-family: var(--font-barlow-condensed);
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

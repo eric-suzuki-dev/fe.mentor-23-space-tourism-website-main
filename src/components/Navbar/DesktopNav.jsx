@@ -9,9 +9,11 @@ export default function DesktopNav() {
         <img src={logo} alt="logo" />
       </div>
 
+      <div className={styles.BarDesktop_line}></div>
+
       <div className={styles.BarDesktop}>
         {["Home", "Destination", "Crew", "Technology"].map((item, index) => (
-          <div key={index} className={styles.BraDesktop_box}>
+          <div key={index} className={styles.BarDesktop_box}>
             <span className={styles.BarDesktop_number}>
               {`0${index}`}
             </span>
