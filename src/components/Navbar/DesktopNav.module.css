@@ -13,12 +13,12 @@
     height: 48px;
 }
 
-.BarDesktop_line{
+.BarDesktop_line {
     display: flex;
-padding-left: 64px;
-align-items: center;
-gap: 64px;
-color: var(--white);
+    padding-left: 64px;
+    align-items: center;
+    gap: 64px;
+    color: var(--white);
 }
 
 .BarDesktop {
