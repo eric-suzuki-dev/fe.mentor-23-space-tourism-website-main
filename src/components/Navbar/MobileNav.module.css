@@ -1,4 +1,4 @@
-.NavbarMobile{
+/* .NavbarMobile{
     height: 88px;
     width: 327px;
     display: flex;
@@ -15,4 +15,77 @@
 .NavbarMobileMenu{
     width: 24px;
     height: 21px;
-}
+} */
+
+.navigation {
+    align-items: center;
+    display: flex;
+    padding: var(--variable-collection-spacing-300) 0px
+      var(--variable-collection-spacing-300) 0px;
+    position: relative;
+  }
+  
+  .navigation .logo-wrapper {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: var(--variable-collection-spacing-800);
+    padding: 0px 0px 0px var(--variable-collection-spacing-300);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .navigation .logo-instance {
+    height: 40px !important;
+    position: relative !important;
+    width: 40px !important;
+  }
+  
+  .navigation .menu {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: var(--variable-collection-spacing-100);
+    justify-content: center;
+    padding: 0px var(--variable-collection-spacing-300) 0px 0px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .navigation .div {
+    height: 21px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .navigation .shape {
+    background-color: var(--variable-collection-color-blue-300);
+    height: 5px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 26px;
+  }
+  
+  .navigation .shape-2 {
+    background-color: var(--variable-collection-color-blue-300);
+    height: 5px;
+    left: -1px;
+    position: absolute;
+    top: 8px;
+    width: 26px;
+  }
+  
+  .navigation .shape-3 {
+    background-color: var(--variable-collection-color-blue-300);
+    height: 5px;
+    left: -1px;
+    position: absolute;
+    top: 17px;
+    width: 26px;
+  }
+  
