@@ -1,4 +1,4 @@
-.HomePage {
+/* .HomePage {
     background-image: url(@/assets/images/home/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,4 +9,99 @@
     flex-direction: column;
     align-items: center;
     justify-items: flex-start;
-}
+} */
+
+.main-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--variable-collection-spacing-100);
+    padding: var(--variable-collection-spacing-300);
+    position: relative;
+  }
+  
+  .main-content .hero {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: var(--variable-collection-spacing-600);
+    position: relative;
+    width: 100%;
+  }
+  
+  .main-content .div {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .main-content .texts {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: var(--variable-collection-spacing-300);
+    max-width: 540px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .main-content .SO-YOU-WANT-TO-TRAV {
+    align-self: stretch;
+    color: var(--variable-collection-color-blue-300);
+    font-family: var(--mobile-text-preset-6-font-family);
+    font-size: var(--mobile-text-preset-6-font-size);
+    font-style: var(--mobile-text-preset-6-font-style);
+    font-weight: var(--mobile-text-preset-6-font-weight);
+    letter-spacing: var(--mobile-text-preset-6-letter-spacing);
+    line-height: var(--mobile-text-preset-6-line-height);
+    position: relative;
+    text-align: center;
+  }
+  
+  .main-content .text-wrapper-2 {
+    align-self: stretch;
+    color: var(--variable-collection-color-white);
+    font-family: var(--mobile-text-preset-1-font-family);
+    font-size: var(--mobile-text-preset-1-font-size);
+    font-style: var(--mobile-text-preset-1-font-style);
+    font-weight: var(--mobile-text-preset-1-font-weight);
+    letter-spacing: var(--mobile-text-preset-1-letter-spacing);
+    line-height: var(--mobile-text-preset-1-line-height);
+    position: relative;
+    text-align: center;
+  }
+  
+  .main-content .let-s-face-it-if-yo {
+    align-self: stretch;
+    color: var(--variable-collection-color-blue-300);
+    font-family: var(--mobile-text-preset-9-font-family);
+    font-size: var(--mobile-text-preset-9-font-size);
+    font-style: var(--mobile-text-preset-9-font-style);
+    font-weight: var(--mobile-text-preset-9-font-weight);
+    letter-spacing: var(--mobile-text-preset-9-letter-spacing);
+    line-height: var(--mobile-text-preset-9-line-height);
+    position: relative;
+    text-align: center;
+  }
+  
+  .main-content .button {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: var(--variable-collection-spacing-300);
+    justify-content: center;
+    max-width: 540px;
+    position: relative;
+    width: 100%;
+  }
+  
